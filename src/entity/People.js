@@ -1,13 +1,13 @@
 export class People {
-    name = '';
-    age = 0;
-    cpf = 0;
+    name;
+    age;
+    cpf;
 
     people(nome, idade, cpf) {
 
         this.name = nome,
-            this.age = idade,
-            this.cpf = cpf
+        this.age = idade,
+        this.cpf = cpf
 
     }
 }

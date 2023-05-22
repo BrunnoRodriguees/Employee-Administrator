@@ -1,12 +1,12 @@
-import { Employee } from "./Employee";
+import { Employee } from "./employee";
 
 export class EmployeeAdministrator {
-    employeeAdministratorId = 0;
-    employeeId = 0;
-    admissionDate = new Date;
-    demissionDate = new Date;
-    employeeWarningId = 0; 
-    employeeSuspension
-    vacation
-    uniformReplacement
+    employeeAdministratorId;
+    employeeId;
+    admissionDate;
+    demissionDate;
+    employeeWarningId; 
+    employeeSuspension;
+    vacation;
+    uniformReplacement;
 }

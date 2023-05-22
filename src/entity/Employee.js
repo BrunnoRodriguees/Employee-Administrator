@@ -1,8 +1,8 @@
-import { People } from "./People";
+import { People } from "./people";
 
 export class Employee {
-    employeeId = 0;
-    peopleId = 0;
-    employeeAdministratorId = 0;
+    employeeId;
+    peopleId;
+    employeeAdministratorId;
 }
 
